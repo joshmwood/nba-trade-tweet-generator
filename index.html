@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake NBA Trade Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button onclick="generateTrade()">Generate Trade</button>
+    <template data-user-template>
+        <div class="tweet">
+            <div class="header">
+                <img src="" alt="" data-profile-picture>
+                <div class="userinfo">
+                    <div class="name" data-name></div>
+                    <div class="username" data-username></div>
+                </div>
+            </div>
+            <div class="tweet-content" data-tweet-content>
+            </div>
+            <div class="tweet-meta-info">
+                <a href="#" id="time" data-time></a>
+                <span>·</span>
+                <a href="#" id="source" data-source></a>
+            </div>
+            <div class="tweet-engagement-info">
+                <a href="#" class="retweets" data-rt></a>
+                <a href="#" class="quotetweets" data-qrt></a>
+                <a href="#" class="likes" data-likes></a>
+            </div>
+        </div>
+    </template>
+
+</body>
+</html>
